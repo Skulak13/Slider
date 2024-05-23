@@ -1,1 +1,21 @@
-#auto-button {}
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#slider img {
+    max-width: 100%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
