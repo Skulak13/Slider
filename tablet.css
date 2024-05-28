@@ -1,0 +1,8 @@
+#slider {
+    margin-bottom: 2vh;
+}
+
+#buttons button {
+    border: 5px inset firebrick;
+    font-size: calc(1vh + 1vw);
+}

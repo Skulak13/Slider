@@ -2,20 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
     width: 100%;
+    margin-bottom: 0.7vh;
 }
 
-#slider img {
+#slider-image {
     max-width: 100%;
-    max-height: 90vh;
+    max-height: 85vh;
     width: auto;
     height: auto;
     aspect-ratio: 1 / 1;
+    border: 5px inset firebrick;
 }
 
 #buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+#buttons button {
+    cursor: pointer;
+    border: 2px inset firebrick;
+    font-size: calc(0.7vh + 0.7vw);
 }
